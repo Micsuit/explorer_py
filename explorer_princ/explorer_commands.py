@@ -73,7 +73,7 @@ def iden_commd(input_user):
     elif cmd_junto[0: 12].lower() == lista_commands[3]: # user_input = deletefolder ...
         del_folder(cmd_junto)
     elif cmd_junto[0: 6].lower() == lista_commands[4]: # user_input = filfol
-        files_in_folder(cmd_junto)
+        files_in_folder()
 
 
     elif cmd_junto.lower() == "quit":
